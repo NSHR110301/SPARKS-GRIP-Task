@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%> 
+
+
+       <h3>Transaction Portal:</h3>
+<br><br><br>
+<h4>Welcome, please select the sender and the amount you want to transfer to <span class="color"><%= customerName %></span></h4><br>
+<form action="/transaction/<%= customerName %>" method="post">
+
+    <h4>Sender:</h4>
+   <select id="senderList" name="senderList">
+       <option name="sender" style="font-size:20px";>Shruti Sinha</option>
+       <option name="sender"style="font-size:20px";>Aryan Singh</option>
+       <option name="sender" style="font-size:20px";>James Brown</option>
+       <option name="sender"style="font-size:20px";>Nupur Sen</option>
+       <option name="sender" style="font-size:20px";>Oishiki Ganguly</option>
+       <option name="sender" style="font-size:20px";>Aditi Patel</option>
+       <option name="sender" style="font-size:20px";>Rohan Bharadwaj</option>
+       <option name="sender" style="font-size:20px";>Samarth Shah</option>
+       <option name="sender" style="font-size:20px";>Ananya Maheshwari</option>
+<option name="sender" style="font-size:20px";>Ayush Kalra</option>
+    
+    </select><br><br><br>
+    <h4>Transfer Amount:</h4>
+    <input type="number" id="amount" name="amount" placeholder="Enter transfer amount"><button id="tranfer" type="submit" value="Tranfer" >Transfer</button>
+
+</form>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,143 @@
+body {
+    background-color: #fff;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+  padding-bottom: 2.5rem; }
+
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+ h4 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+#background-image {
+    height: 580px;
+    padding-top: 1px;
+    background: #e8eced url('../images/hero.jpg') no-repeat center;
+
+}
+#background-image h2 {
+    margin: 180px 0 40px 0;
+}
+footer {
+    padding: 60px 0;
+    background-color: #f8fafa;
+   
+  
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+
+ /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+margin-left: 38px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type="number"]{
+    height:40px;
+    width: 300px;
+    
+}
+button{
+    height:40px;width:70px;
+
+}
+
+#senderList{
+     height:40px;width:100px;
+}
